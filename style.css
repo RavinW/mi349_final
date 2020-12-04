@@ -1,6 +1,7 @@
 p{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 10px;
+    font-size: 40px;
+
 }
 .contacts{
     margin: 0; /*Allows you to create centered web designs that expand & contract with the browser window*/
@@ -9,9 +10,10 @@ p{
 }
 
 .contacts li{
-    width: 30px;
-    display: inline-block; /*change the layout of the icons to display inline*/
+    width: 20px;
+    display: flex; /*change the layout of the icons to display inline*/
     padding: 20px 10px;/*Add space around the images*/
+    flex: 20px;
 }
 
 /*Shadow appears when user hovers over an image*/
