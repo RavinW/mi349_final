@@ -29,9 +29,10 @@ body {
         font-size: 1em;
         color: black;
         margin: 0;
+        line-height: 1.4em;
     }
 
-p{  font-size: 1em;
+pre{  font-size: 1em;
     color: black;
     margin: 0;
     line-height: 1.4em;
