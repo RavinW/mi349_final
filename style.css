@@ -7,6 +7,13 @@ a[title]{
     font-size: 4em;
     color: black;
 }
+
+h1{
+    background: rgb(255, 255, 255);
+    position: sticky;
+    top: 0px;
+
+}
 /* Modifies all of the document */
 body {
     font-family: 'Times New Roman', Times, serif;
@@ -35,6 +42,12 @@ max-width: 100%;
 
 }
 
+.introduction{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+
+}
+
 .contacts{
     margin: 0; /*Allows you to create centered web designs that expand & contract with the browser window*/
     padding: 0;
@@ -46,7 +59,7 @@ max-width: 100%;
     width: 20px;
     display: flex; /*change the layout of the icons to display inline*/
     padding: 20px 10px;/*Add space around the images*/
-    flex: 6m;
+    flex: 6em;
 }
 
 /*Shadow appears when user hovers over an image*/
