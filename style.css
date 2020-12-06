@@ -26,7 +26,7 @@ body {
 
 .talk-about-me{
         font-family: 'Times New Roman', Times, serif;
-        font-size: 2em;
+        font-size: 1.5em;
         color: black;
         margin: 0;
         line-height: 1.4em;
@@ -58,7 +58,7 @@ max-width: 100%;
 }
 
 .contacts li{
-    width: 20px;
+    width: 50px;
     display: flex; /*change the layout of the icons to display inline*/
     padding: 20px 10px;/*Add space around the images*/
     flex: 6em;
