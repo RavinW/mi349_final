@@ -23,10 +23,11 @@ body {
         margin: 0;
     }
 
-p{  font-size: 2.5em;
+p{  font-size: 1em;
     color: black;
     margin: 0;
     line-height: 1.4em;
+
 }
 
 img{
@@ -45,7 +46,7 @@ max-width: 100%;
     width: 20px;
     display: flex; /*change the layout of the icons to display inline*/
     padding: 20px 10px;/*Add space around the images*/
-    flex: 3m;
+    flex: 6m;
 }
 
 /*Shadow appears when user hovers over an image*/
