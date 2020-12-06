@@ -26,7 +26,9 @@ body {
 p{  font-size: 2.5em;
     color: black;
     margin: 0;
-    
+    line-height: 1.4em;
+
+
 }
 
 
@@ -34,13 +36,14 @@ p{  font-size: 2.5em;
     margin: 0; /*Allows you to create centered web designs that expand & contract with the browser window*/
     padding: 0;
     list-style-type: none; /*Changes bullets, numbers, etc that you see. none gets rid of bullets */
+    display: flex;
 }
 
 .contacts li{
     width: 20px;
     display: flex; /*change the layout of the icons to display inline*/
     padding: 20px 10px;/*Add space around the images*/
-    flex: 20px;
+    flex: 3;
 }
 
 /*Shadow appears when user hovers over an image*/
