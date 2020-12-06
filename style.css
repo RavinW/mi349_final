@@ -43,7 +43,7 @@ p{  font-size: 2.5em;
     width: 20px;
     display: flex; /*change the layout of the icons to display inline*/
     padding: 20px 10px;/*Add space around the images*/
-    flex: 3;
+    flex: 3m;
 }
 
 /*Shadow appears when user hovers over an image*/
