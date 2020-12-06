@@ -1,8 +1,35 @@
-p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
 
+/* Index html */
+
+/* modifies whatever link is inside []*/
+a[title]{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    color: black;
 }
+/* Modifies all of the document */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px;
+    padding: 40px;
+    color: black;
+    border-top: 10px solid #242424;
+    background: #fff;
+    }
+
+.talk-about-me{
+        font-size: 2.5em;
+        color: black;
+        margin: 0;
+    }
+
+p{  font-size: 2.5em;
+    color: black;
+    margin: 0;
+    
+}
+
+
 .contacts{
     margin: 0; /*Allows you to create centered web designs that expand & contract with the browser window*/
     padding: 0;
