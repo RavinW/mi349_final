@@ -8,9 +8,7 @@ a[title]{
     color: black;
 }
 
-a{
-    font-size: ;
-}
+
 h1{
     background: rgb(255, 255, 255);
     position: sticky;
@@ -36,11 +34,12 @@ body {
         line-height: 1.4em;
     }
 /* Index page */
-.my-thoughts{  font-size: 1.5em;
+.my-thoughts{  
+    font-size: 1em;
     color: black;
     margin: 0;
     line-height: 1.4em;
-    font-size: 1.5em;
+  
 
 }
 
