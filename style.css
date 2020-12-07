@@ -67,7 +67,7 @@ max-width: 100%;
 .contacts li{
     width: 50px;
     display: flex; /*change the layout of the icons to display inline*/
-    padding: 20px 10px;/*Add space around the images*/
+    padding: 50px 10px;/*Add space around the images*/
     flex: 6em;
     margin: 0 auto;
 }
