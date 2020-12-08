@@ -64,12 +64,14 @@ nav{
     width: 50px;
     /* display: flex; change the layout of the icons to display inline*/
     padding: 20px 20px;/*Add space around the images*/
-    flex: 6em;
+  
+    /* flex: 6em;
    margin-left: auto;
     margin-right: auto;
-    text-align: center;  
+    text-align: center; */
     
 }
+
 
 /*Shadow appears when user hovers over an image*/
 .contacts li a img:hover{
@@ -79,4 +81,16 @@ nav{
 
 h2{
     text-align: center; /*Centers your text*/
+}
+
+.email-link{
+    text-align: center;display: block;
+}
+
+.twitter-link{
+    text-align: center;display: block;
+}
+
+.insta-link{
+    text-align: center;display: block;
 }
