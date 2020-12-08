@@ -52,7 +52,7 @@ max-width: 100%;
 
 .introduction{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1em;
+    font-size: 1.5em;
 
 }
 
@@ -65,10 +65,11 @@ max-width: 100%;
 }
 
 
+
 .contacts li{
     width: 50px;
-    /*display: flex; change the layout of the icons to display inline*/
-    flex: 5em;
+    display: flex; /*change the layout of the icons to display inline*/
+    flex: 6em;
 }
 
 /*Shadow appears when user hovers over an image*/
