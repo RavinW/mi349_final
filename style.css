@@ -38,14 +38,10 @@ body {
         margin: 0;
         line-height: 1.4em;
     }
-/* Index page 
+/* Index page */
 p{  
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1em;
-    color: black;
-    margin: 0 auto;
-    line-height: 1.4em;
-}*/
+    font-size: 1.3em;
+}
 
 img{
 max-width: 100%;
@@ -66,7 +62,7 @@ max-width: 100%;
     /* display: flex; change the layout of the icons to display inline*/
     padding: 20px 20px;/*Add space around the images*/
     flex: 6em;
-   
+    text-align: center;
 }
 
 /*Shadow appears when user hovers over an image*/
