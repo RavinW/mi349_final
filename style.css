@@ -41,9 +41,10 @@ body {
 /* Index page */
 p{  
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1em;
+    font-size: 1.5em;
     color: black;
-    margin: 0;
+    margin: 0 auto;
+    line-height: 1.4em;
 }
 
 img{
@@ -56,7 +57,6 @@ max-width: 100%;
     padding: 0;
     list-style-type: none; /*Changes bullets, numbers, etc that you see. none gets rid of bullets */
     display: inline-flex;
-    text-align: center; /*Centers your text*/
 }
 
 .contacts li{
@@ -64,8 +64,8 @@ max-width: 100%;
     /* display: flex; change the layout of the icons to display inline*/
     padding: 20px 20px;/*Add space around the images*/
     flex: 6em;
-    margin: 0 auto;
-   
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Shadow appears when user hovers over an image*/
