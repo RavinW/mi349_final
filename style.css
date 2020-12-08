@@ -1,3 +1,9 @@
+/* Type selector: body, h1, div & p
+    Id selector: #blog
+    Class selector: .blog posts
+    attribute selector: a[title]{}
+*/
+
 
 /* Index html */
 
@@ -25,16 +31,9 @@ body {
     background: #fff;
     }
 
-    /* About page */
-.talk-about-me{
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 1em;
-        color: black;
-        margin: 0;
-        line-height: 1.4em;
-    }
-/* Index page */
-.my-thoughts{  
+   
+/* Index page all paragraphs */
+p{  
     font-size: 1em;
     color: black;
     margin: 0;
@@ -50,11 +49,19 @@ max-width: 100%;
 
 .introduction{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
+    font-size: 1.4em;
 
 }
 
 /* About page */
+
+.talk-about-me{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: black;
+    margin: 0;
+    line-height: 1.4em;
+}
 .contacts{
     margin: 0 auto; /*Allows you to create centered web designs that expand & contract with the browser window*/
     list-style-type: none; /*Changes bullets, numbers, etc that you see. none gets rid of bullets */
@@ -74,4 +81,8 @@ max-width: 100%;
 .contacts li a img:hover{
     opacity: 0.5;
     transition: opacity ease-in-out 0.2s;
+}
+
+h2{
+    text-align: center; /*Centers your text*/
 }
