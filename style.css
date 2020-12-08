@@ -61,15 +61,15 @@ max-width: 100%;
     margin: 0 auto; /*Allows you to create centered web designs that expand & contract with the browser window*/
     list-style-type: none; /*Changes bullets, numbers, etc that you see. none gets rid of bullets */
     display: inline-flex;
-    padding: 50px 10px;/*Add space around the images*/
+    padding: 30px 10px;/*Add space around the images*/
 }
 
-}
+
 
 .contacts li{
-    width: 50px;
+    width: 30px;
     /*display: flex; change the layout of the icons to display inline*/
-    flex: 6em;
+    flex: 4em;
 }
 
 /*Shadow appears when user hovers over an image*/
