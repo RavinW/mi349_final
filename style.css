@@ -4,7 +4,6 @@
     attribute selector: a[title]{}
 */
 
-
 /* Index html */
 
 /* modifies whatever link is inside []*/
@@ -31,50 +30,42 @@ body {
     background: #fff;
     }
 
-   
-/* Index page all paragraphs */
+    /* About page */
+.talk-about-me{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.5em;
+        color: black;
+        margin: 0;
+        line-height: 1.4em;
+    }
+/* Index page */
 p{  
+    font-family: 'Times New Roman', Times, serif;
     font-size: 1em;
     color: black;
     margin: 0;
     line-height: 1.4em;
 }
 
-/* Index page */
 img{
 max-width: 100%;
-
-}
-
-
-.introduction{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.4em;
-
 }
 
 /* About page */
-
-.talk-about-me{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1em;
-    color: black;
-    margin: 0;
-    line-height: 1.4em;
-}
 .contacts{
-    margin: 0 auto; /*Allows you to create centered web designs that expand & contract with the browser window*/
+    margin: 0; /*Allows you to create centered web designs that expand & contract with the browser window*/
+    padding: 0;
     list-style-type: none; /*Changes bullets, numbers, etc that you see. none gets rid of bullets */
     display: inline-flex;
-    padding: 50px 20px;/*Add space around the images*/
 }
-
-
 
 .contacts li{
     width: 50px;
-     /*display: flex; change the layout of the icons to display inline*/
+    /* display: flex; change the layout of the icons to display inline*/
+    padding: 20px 10px;/*Add space around the images*/
     flex: 6em;
+    margin: 0 auto;
+    text-align: center; /*Centers your text*/
 }
 
 /*Shadow appears when user hovers over an image*/
