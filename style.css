@@ -61,9 +61,9 @@ nav{
 }
 
 .contacts li{
-    width: 100px;
+    width: 50px;
     /* display: flex; change the layout of the icons to display inline*/
-    padding: 20px 20px;/*Add space around the images*/
+    padding: 50px 20px;/*Add space around the images*/
   
     /* flex: 6em;
    margin-left: auto;
