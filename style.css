@@ -65,11 +65,12 @@ nav{
     /* display: flex; change the layout of the icons to display inline*/
     padding: 20px 20px;/*Add space around the images*/
   
-    /* flex: 6em;
-   
-    text-align: center; */
-    margin-left: 0 auto;
+    flex: 6em;
+    /* 
+   margin-left: 0 auto;
     margin-right: 0 auto;
+    text-align: center; */
+    
 }
 
 
