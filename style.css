@@ -23,7 +23,7 @@ h1{
 /* Modifies all of the document */
 body {
     font-family: 'Times New Roman', Times, serif;
-    /*margin: 40px;*/
+    margin: 40px;
     padding: 40px;
     color: black;
     border-top: 10px solid #242424;
@@ -73,9 +73,9 @@ nav{
     transition: opacity ease-in-out 0.2s;
 }
 
-h2{
-    text-align: center; /*Centers your text*/
-}
+/*h2{
+    text-align: center; Centers your text
+}*/
 
 .email-link{
     text-align: center;
