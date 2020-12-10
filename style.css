@@ -73,21 +73,10 @@ nav{
     transition: opacity ease-in-out 0.2s;
 }
 
-/*h2{
-    text-align: center; Centers your text
-}*/
-
-.email-link{
-    text-align: center;
-    margin: 0;
+h2{
+    text-align: center; /*Centers your text*/
 }
 
-.twitter-link{
-    text-align: center;
-    margin: 0;
-}
-
-.insta-link{
-    text-align: center;
-    margin: 0;
-}
+div{
+    margin: 0 auto;
+} 
