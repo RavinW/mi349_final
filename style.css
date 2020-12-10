@@ -53,7 +53,7 @@ nav{
 }
 /* About page */
 .contacts{
-    /*margin: 0; Allows you to create centered web designs that expand & contract with the browser window*/
+   margin: 0; /* Allows you to create centered web designs that expand & contract with the browser window*/
     padding: 0;
     list-style-type: none; /*Changes bullets, numbers, etc that you see. none gets rid of bullets */
     display: inline-flex;
@@ -65,11 +65,6 @@ nav{
     /* display: flex; change the layout of the icons to display inline*/
     padding: 20px 20px;/*Add space around the images*/
   
-    flex: 6em;
-    /* 
-   margin-left: 0 auto;
-    margin-right: 0 auto;
-    text-align: center; */
     
 }
 
