@@ -53,7 +53,7 @@ nav{
 }
 /* About page */
 .contacts{
-   margin: 0; /* Allows you to create centered web designs that expand & contract with the browser window*/
+    /*margin: 0; Allows you to create centered web designs that expand & contract with the browser window*/
     padding: 0;
     list-style-type: none; /*Changes bullets, numbers, etc that you see. none gets rid of bullets */
     display: inline-flex;
@@ -63,9 +63,7 @@ nav{
 .contacts li{
     width: 50px;
     /* display: flex; change the layout of the icons to display inline*/
-    padding: 20px 20px;/*Add space around the images*/
-  
-    
+    padding: 20px 20px;/*Add space around the images*/    
 }
 
 
@@ -81,12 +79,15 @@ h2{
 
 .email-link{
     text-align: center;
+    margin: 0;
 }
 
 .twitter-link{
     text-align: center;
+    margin: 0;
 }
 
 .insta-link{
     text-align: center;
+    margin: 0;
 }
