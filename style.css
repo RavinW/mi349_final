@@ -77,6 +77,15 @@ h2{
     text-align: center; /*Centers your text*/
 }
 
-div{
+.email-link{
+   
     margin: 0 auto;
-} 
+}
+
+.twitter-link{
+    margin: 0 auto;
+}
+
+.insta-link{
+    margin: 0 auto;
+}
