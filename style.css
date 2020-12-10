@@ -23,7 +23,7 @@ h1{
 /* Modifies all of the document */
 body {
     font-family: 'Times New Roman', Times, serif;
-    margin: 40px;
+    /*margin: 40px;*/
     padding: 40px;
     color: black;
     border-top: 10px solid #242424;
