@@ -53,21 +53,26 @@ nav{
     font-size: 1.3em;
 }
 /* About page */
-.contacts{
-    /*margin: 0; Allows you to create centered web designs that expand & contract with the browser window*/
-    padding: 0;
-    list-style-type: none; /*Changes bullets, numbers, etc that you see. none gets rid of bullets */
-    
+
+.center{
+    display: table;
+    margin: 0 auto;
 }
 
-.contacts li{
-    display: block;
+ul#contacts{
+    /*margin: 0; Allows you to create centered web designs that expand & contract with the browser window*/
+    list-style-type: none; /*Changes bullets, numbers, etc that you see. none gets rid of bullets */
+     padding: 20px 20px;/*Add space around the images*/
+}
+
+ul#contacts li{
+   /* display: block;
     margin-left: auto;
     margin-right: auto;
 
     width: 50px;
     /* display: flex; change the layout of the icons to display inline*/
-    padding: 20px 20px;/*Add space around the images*/   
+      display: inline;
 }
 
 
