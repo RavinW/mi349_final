@@ -53,23 +53,17 @@ nav{
     font-size: 1.3em;
 }
 /* About page */
-
-.center{
-    display: table;
-    margin: 0 auto;
-}
-
-ul#contacts{
+.contacts{
     /*margin: 0; Allows you to create centered web designs that expand & contract with the browser window*/
     padding: 0;
     list-style-type: none; /*Changes bullets, numbers, etc that you see. none gets rid of bullets */
     
 }
 
-ul#contacts li{
-   /* display: block;
+.contacts li{
+    display: block;
     margin-left: auto;
-    margin-right: auto;*/
+    margin-right: auto;
 
     width: 50px;
     /* display: flex; change the layout of the icons to display inline*/
