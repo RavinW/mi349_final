@@ -53,6 +53,9 @@ nav{
     font-size: 1.3em;
 }
 /* About page */
+.about-me{
+    text-align: center;
+}
 .center{
     display: block;
     margin-left: auto;
