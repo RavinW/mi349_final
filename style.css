@@ -57,9 +57,14 @@ nav{
     /*margin: 0; Allows you to create centered web designs that expand & contract with the browser window*/
     padding: 0;
     list-style-type: none; /*Changes bullets, numbers, etc that you see. none gets rid of bullets */
+    
 }
 
 .contacts li{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
     width: 50px;
     /* display: flex; change the layout of the icons to display inline*/
     padding: 20px 20px;/*Add space around the images*/   
