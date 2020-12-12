@@ -62,8 +62,7 @@ nav{
 .contacts li{
     width: 50px;
     /* display: flex; change the layout of the icons to display inline*/
-    padding: 20px 20px;/*Add space around the images*/ 
-    display: inline-block;   
+    padding: 20px 20px;/*Add space around the images*/   
 }
 
 
@@ -74,8 +73,8 @@ nav{
 }
 
 h2{
-    text-align: center; /*Centers your text
-}
+    text-align: center; } /*Centers your text*/
+
 
 .email-link{
     display: inline-block;
@@ -87,4 +86,4 @@ h2{
 
 .insta-link{
     display: inline-block;
-}*/
+} 
